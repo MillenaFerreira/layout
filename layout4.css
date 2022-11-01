@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    display: flex;
+}
+nav{
+    background-color: brown;
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.text{
+    display: grid;
+    width: 80%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-rows: 
+    100px
+    1fr
+    100px;
+}
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+main {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-areas: 
+     "article aside";
+    grid-template-columns: 1fr 250px ;
+}
+.article{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.aside{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+footer{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

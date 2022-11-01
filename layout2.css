@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 150px 1fr 100px ;
+}
+
+header{
+    background-color: rgb(255, 72, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+main {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-areas: 
+    "nav article aside";
+    grid-template-columns: 200px 1fr 200px;
+   
+}
+.nav{
+    background-color: rgb(231, 177, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.article{
+    background-color: rgb(177, 252, 143);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.aside{
+    background-color: rgb(240, 202, 154);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+footer{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
